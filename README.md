@@ -29,9 +29,7 @@ git submodule update
 
 ```bash
 mkdir build
-cd build
-cmake ..
-make
+(cd build && cmake .. && make)
 ```
 
 ## Usage
@@ -39,7 +37,7 @@ make
 Run the benchmark:
 
 ```bash
-./sgemm
+./array_add/array_add_bench.out --csv /path/to/csv/file.csv
 ```
 
 ## License
