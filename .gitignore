@@ -1,3 +1,4 @@
 build/
 sgemm
 compile_commands.json
+*.out
