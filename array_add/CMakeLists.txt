@@ -7,4 +7,4 @@ set_target_properties(array_add_test.out PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${
 
 # Link CUDA libraries and nvbench
 target_link_libraries(array_add_bench.out PRIVATE nvbench::main)
-target_link_libraries(array_add_test.out PRIVATE ${CUDA_LIBRARIES} ${CUDA_cublas_LIBRARY})
+target_link_libraries(array_add_test.out)
